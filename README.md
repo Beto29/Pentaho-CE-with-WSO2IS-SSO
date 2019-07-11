@@ -52,7 +52,7 @@ Enter the default user credentials mentioned below
 
 Username: admin, Password: admin
 
-After logging into WSO2 Carbon Server; On the left side under Service Providers,Select the “Add”button. It will take you to the following page. R
+After logging into WSO2 Carbon Server; On the left side under Service Providers,Select the “Add”button. It will take you to the following page.
 
 
 
@@ -72,7 +72,7 @@ Select the Metadata File Configuration radio button, it will ask you to Choose F
 In Choose File, go to the path Pentaho_SAML_Configurables which has been created in earlier steps and select the pentaho-sp.xml file and then select the Upload button.
 
 
-Note: Before uploading the file, the pentaho-sp.xml file will be having “http://localhost:8080”,always use the port number and hostname or ip number which has been defined in server.xml file located in “pentaho-server\tomcat\conf” and do the respective changes to the pentaho-sp.xml file using a text editor.
+Note: Before uploading the file, the pentaho-sp.xml file will be having “http://localhost:8080”, always use the port number and hostname or ip number which has been defined in server.xml file located in “pentaho-server\tomcat\conf” and do the respective changes to the pentaho-sp.xml file using a text editor.
 
 And also comment the entire “<md:KeyDescriptor use="encryption">” section in the pentaho-sp.xml file.
 
@@ -212,6 +212,8 @@ TestUser2 has Admin privileges and TestUser1 has Business Analyst privileges.
 
 While logging in as TestUser1 for the first time, Username and Role check boxes will come, select both the check boxes and select Approve option. 
 
+
+Also the same thing mentioned here is also mentioned in the docx file with screenshots
 
 Note:Any created user in WSO2 Identity server when logging in for first time should select the Username and Role check boxes.
 
