@@ -105,7 +105,7 @@ Now edit the SAML2 WEB SSO Configuration by expanding the Inbound Authentication
 
 And then Select the Update option available at bottom.
 
-After updating, go to “List” option in Service Providers and Edit the Pentaho SSO (which we have created earlier)and edit the SAML2 Web SSO Configuration by expanding the Inbound Authentication Configuration. Select the Download IDP Metadata option and save the metadata.xml file in Pentaho_SAML_Configurables folder. Refer the below screenshot
+After updating, go to “List” option in Service Providers and Edit the Pentaho SSO (which we have created earlier)and edit the SAML2 Web SSO Configuration by expanding the Inbound Authentication Configuration. Select the Download IDP Metadata option and save the metadata.xml file in Pentaho_SAML_Configurables folder. 
 
 Now edit the pentaho.saml.cfg file using a text editor, locate the “saml.sp.metadata.entityId” and give its value as “pentaho”
 
