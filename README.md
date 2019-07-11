@@ -187,7 +187,6 @@ Refer the users screenshot below
 
 Users and Roles have been created and users have been mapped to roles.
 
-
 Now select “List” from Service Providers and Edit the PentaoSSO Service Provider Entity ID, Expand Roles and Permissions Configuration. Select the + Add Role Mapping option and map the created roles in WSO2 with that of Pentaho. Refer the screenshot below
 
 
@@ -205,15 +204,11 @@ Now with a text editor edit the pentaho-saml.cfg file, locate and change the val
 
 Role Mapping process is now complete.
 
-
 Now start the Pentaho BA server,Once the server starts. Try logging with TestUser1 and TestUser2.
 
 TestUser2 has Admin privileges and TestUser1 has Business Analyst privileges.
 
 While logging in as TestUser1 for the first time, Username and Role check boxes will come, select both the check boxes and select Approve option. 
-
-
-Also the same thing mentioned here is also mentioned in the docx file with screenshots
 
 Note:Any created user in WSO2 Identity server when logging in for first time should select the Username and Role check boxes.
 
@@ -228,3 +223,7 @@ Now logout as TestUser1 and try Logging in as TestUser2 who has admin privileges
 
 TestUser2 has complete admin privileges.
 
+
+Also the same thing mentioned here is also mentioned in the docx file with screenshots
+
+END
